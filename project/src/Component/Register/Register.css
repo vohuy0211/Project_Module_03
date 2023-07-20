@@ -1,0 +1,72 @@
+.Register-Content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Register-form {
+  max-width: 400px;
+
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Register-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Register-form form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Register-form .form-group {
+  margin-bottom: 20px;
+}
+
+.Register-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Register-form .form-group input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 94%;
+}
+
+.Register-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 30px;
+}
+
+.Register-form button[type="submit"]:hover {
+  background-color: #0e101383;
+}
+
+.Register-Login-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.error {
+  color: red;
+}

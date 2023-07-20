@@ -1,0 +1,129 @@
+.wrapper-Detail {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+
+.wrapper-Detail h1 {
+  color: #ff6612;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 3px solid #ff6612;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.wrapper-Detail ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.wrapper-Detail li {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.wrapper-Detail img {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.304);
+  border-radius: 5px;
+}
+
+.wrapper-Detail h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.wrapper-Detail h4 {
+  color: #ff6612;
+  margin-bottom: 10px;
+}
+
+.wrapper-Detail p {
+  margin-bottom: 10px;
+}
+
+.wrapper-Detail input[type="number"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.wrapper-Detail h5 {
+  color: #777;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 300px;
+}
+
+.wrapper-Detail-card h1 {
+  text-align: center;
+  color: #ff6612;
+  border-bottom: 3px solid #ff6612;
+  padding: 10px 20px;
+}
+
+.Detail-card {
+  border: 2px solid #ff6612;
+  padding: 0 60px;
+  border-radius: 10px;
+  height: 430px;
+}
+
+.Detail-card button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: white;
+  color: #ff6612;
+  cursor: pointer;
+  border: 1px solid #ff6612;
+}
+
+.Detail-card button:hover {
+  background-color: #ff6612;
+  color: white;
+}
+
+.wrapper-Detail li {
+  position: relative;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+
+  padding: 5px 10px;
+
+  cursor: pointer;
+}
+
+.wrapper-Detail li::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #ff6612;
+  border-radius: 50%;
+}
+
+.wrapper-Detail li.active::before {
+  background-color: white;
+}
+
+.wrapper-Detail ul li:hover {
+  color: #ff6612;
+}
+
+.categoryItem {
+  text-transform: uppercase;
+}
