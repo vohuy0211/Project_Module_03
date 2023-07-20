@@ -50,7 +50,7 @@ const Login = () => {
         });
         setTimeout(() => {
           navigate("/HomeLogin"); // Chuyển đến trang đăng nhập
-        }, 5000);
+        }, 2000);
       } else {
         toast.error("Tài khoản bạn đã bị khoá", {
           position: "top-right",

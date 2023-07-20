@@ -34,6 +34,7 @@ const Invoice = () => {
               <th>Order Date</th>
               <th>USERNAME</th>
               <th>PRICE</th>
+              <th>ADDRESS</th>
               <th>PHONE</th>
               <th>ACTION</th>
             </thead>
@@ -54,6 +55,7 @@ const Invoice = () => {
                       <span>{item.totalPrice.toLocaleString()} đ</span>
                     </div>
                   </td>
+                  <td>{item.oder.User.address}</td>
                   <td>
                     <span>{item.oder.User.phoneNumber}</span>
                   </td>
