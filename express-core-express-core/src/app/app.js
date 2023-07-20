@@ -11,7 +11,12 @@ app.use(express.urlencoded());
 app.use(bodyParser.json());
 app.use(morgan('dev'));
 // app.use(helmet());
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:3001'];
+const allowedOrigins = [
+  'http://localhost:3000',
+  'http://localhost:3001',
+  'https://book-store-five-theta.vercel.app',
+  'https://book-store-admin-ruby.vercel.app',
+];
 
 // CORS configuration
 const corsOptions = {
